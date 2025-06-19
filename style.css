@@ -123,6 +123,15 @@ i {
   margin: 14px 0;
 }
 
+.hero-title {
+  text-align: justify;
+  text-align-last: center;
+  max-width: 940px;
+  margin: 0 auto;
+  font-size: 46px;
+  line-height: 150%;
+}
+
 .button-contact {
   padding: 14px 28px;
   color: #fff;
@@ -157,10 +166,18 @@ i {
   .hero p {
     font-size: 14px;
   }
+  .hero-title {
+    font-size: 28px;
+    padding: 0 14px;
+    width: 100%;
+  }
 }
 @media screen and (max-widht: 400px) {
   .hero h1 {
     font-size: 24px;
+  }
+  .hero-title {
+    font-size: 18px;
   }
 }
 .about {
