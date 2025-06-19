@@ -846,7 +846,9 @@ a {
 
 @media (max-width: 600px) {
   .logo-barbearia {
-    width: 95vw;
-    max-width: 95vw;
+    width: 98vw;
+    max-width: 98vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
   }
 }
